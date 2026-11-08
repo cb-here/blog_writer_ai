@@ -1,7 +1,7 @@
 import logging
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
-from app.core.expections import AppError
+from app.core.exceptions import AppError
 
 logger = logging.getLogger(__name__)
 
